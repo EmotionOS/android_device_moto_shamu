@@ -518,8 +518,6 @@
 		<ctl name="SLIM_3_RX Channels" value="One" />
 		<ctl name="SLIMBUS_3_RX_Voice Mixer Voice Stub" value="1" />
 		<ctl name="Voice Stub Tx Mixer QUAT_MI2S_TX" value="1" />
-		<ctl name="BOOST_STUB Right Mixer right VOICE_STUB_DL" value="0" />
-		<ctl name="BOOST_STUB Left Mixer left VOICE_STUB_DL" value="1" />
 	</path>
 
 	<path name="voice-call bt-sco">
@@ -623,8 +621,6 @@
 		<ctl name="SLIM_3_RX Channels" value="One" />
 		<ctl name="SLIMBUS_3_RX_Voice Mixer VoLTE Stub" value="1" />
 		<ctl name="VoLTE Stub Tx Mixer QUAT_MI2S_TX" value="1" />
-		<ctl name="BOOST_STUB Right Mixer right VOLTE_STUB_DL" value="0" />
-		<ctl name="BOOST_STUB Left Mixer left VOLTE_STUB_DL" value="1" />
 	</path>
 
     <path name="volte-call afe-proxy">
@@ -702,8 +698,11 @@
 	<path name="compress-voip-call">
 		<ctl name="SLIM_0_RX_Voice Mixer Voip" value="1" />
 		<ctl name="Voip_Tx Mixer SLIM_0_TX_Voip" value="1" />
+<<<<<<< HEAD
 		<ctl name="BOOST_STUB Right Mixer right VOICE_DL" value="0" />
 		<ctl name="BOOST_STUB Left Mixer left VOICE_DL" value="1" />
+=======
+>>>>>>> 343b47b... Revert "shamu: fix speakerphone echo problem"
 	</path>
 
 	<path name="compress-voip-call bt-sco">
