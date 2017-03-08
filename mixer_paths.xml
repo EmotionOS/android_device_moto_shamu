@@ -314,11 +314,6 @@
 
 	<path name="deep-buffer-playback speaker">
 		<ctl name="QUAT_MI2S_RX Audio Mixer MultiMedia1" value="1" />
-<<<<<<< HEAD
-                <ctl name="BOOST_STUB Right Mixer right MM_DL1" value="1" />
-		<ctl name="BOOST_STUB Left Mixer left MM_DL1" value="1" />
-=======
->>>>>>> 5846760... Revert "Revert "Revert "Path fix for backend connection to FE upon call disconnection"""
 	</path>
 
 	<path name="deep-buffer-playback handset">
@@ -327,11 +322,6 @@
 
 	<path name="deep-buffer-playback speaker-and-headphones">
 		<ctl name="QUAT_MI2S_RX Audio Mixer MultiMedia1" value="1" />
-<<<<<<< HEAD
-                <ctl name="BOOST_STUB Right Mixer right MM_DL1" value="1" />
-		<ctl name="BOOST_STUB Left Mixer left MM_DL1" value="1" />
-=======
->>>>>>> da83681... Revert "audio: fix headset + speaker path"
 		<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia1" value="1" />
 	</path>
 
@@ -371,11 +361,6 @@
 
 	<path name="low-latency-playback speaker">
 		<ctl name="QUAT_MI2S_RX Audio Mixer MultiMedia5" value="1" />
-<<<<<<< HEAD
-                <ctl name="BOOST_STUB Right Mixer right MM_DL5" value="1" />
-		<ctl name="BOOST_STUB Left Mixer left MM_DL5" value="1" />
-=======
->>>>>>> 5846760... Revert "Revert "Revert "Path fix for backend connection to FE upon call disconnection"""
 	</path>
 
 	<path name="low-latency-playback handset">
@@ -384,11 +369,6 @@
 
 	<path name="low-latency-playback speaker-and-headphones">
 		<ctl name="QUAT_MI2S_RX Audio Mixer MultiMedia5" value="1" />
-<<<<<<< HEAD
-                <ctl name="BOOST_STUB Right Mixer right MM_DL5" value="1" />
-		<ctl name="BOOST_STUB Left Mixer left MM_DL5" value="1" />
-=======
->>>>>>> da83681... Revert "audio: fix headset + speaker path"
 		<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia5" value="1" />
 	</path>
 
@@ -416,11 +396,6 @@
 
 	<path name="compress-offload-playback speaker">
 		<ctl name="QUAT_MI2S_RX Audio Mixer MultiMedia4" value="1" />
-<<<<<<< HEAD
-                <ctl name="BOOST_STUB Right Mixer right MM_DL4" value="1" />
-		<ctl name="BOOST_STUB Left Mixer left MM_DL4" value="1" />
-=======
->>>>>>> 5846760... Revert "Revert "Revert "Path fix for backend connection to FE upon call disconnection"""
 	</path>
 
 	<path name="compress-offload-playback handset">
@@ -429,11 +404,6 @@
 
 	<path name="compress-offload-playback speaker-and-headphones">
 		<ctl name="QUAT_MI2S_RX Audio Mixer MultiMedia4" value="1" />
-<<<<<<< HEAD
-                <ctl name="BOOST_STUB Right Mixer right MM_DL4" value="1" />
-		<ctl name="BOOST_STUB Left Mixer left MM_DL4" value="1" />
-=======
->>>>>>> da83681... Revert "audio: fix headset + speaker path"
 		<ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia4" value="1" />
 	</path>
 
@@ -506,11 +476,6 @@
 		<ctl name="QUAT_MI2S_RX_Voice Mixer Voice Stub" value="1" />
 		<ctl name="Voice Stub Tx Mixer STUB_TX_HL" value="1" />
 		<ctl name="Voice Stub Tx Mixer STUB_1_TX_HL" value="1" />
-<<<<<<< HEAD
-                <ctl name="BOOST_STUB Right Mixer right VOICE_STUB_DL" value="1" />
-		<ctl name="BOOST_STUB Left Mixer left VOICE_STUB_DL" value="1" />
-=======
->>>>>>> 5846760... Revert "Revert "Revert "Path fix for backend connection to FE upon call disconnection"""
 	</path>
 
 	<path name="voice-call speaker">
@@ -609,11 +574,6 @@
 		<ctl name="QUAT_MI2S_RX_Voice Mixer VoLTE Stub" value="1" />
 		<ctl name="VoLTE Stub Tx Mixer STUB_TX_HL" value="1" />
 		<ctl name="VoLTE Stub Tx Mixer STUB_1_TX_HL" value="1" />
-<<<<<<< HEAD
-                <ctl name="BOOST_STUB Right Mixer right VOLTE_STUB_DL" value="1" />
-		<ctl name="BOOST_STUB Left Mixer left VOLTE_STUB_DL" value="1" />
-=======
->>>>>>> 5846760... Revert "Revert "Revert "Path fix for backend connection to FE upon call disconnection"""
 	</path>
 
 	<path name="volte-call speaker">
@@ -698,11 +658,6 @@
 	<path name="compress-voip-call">
 		<ctl name="SLIM_0_RX_Voice Mixer Voip" value="1" />
 		<ctl name="Voip_Tx Mixer SLIM_0_TX_Voip" value="1" />
-<<<<<<< HEAD
-		<ctl name="BOOST_STUB Right Mixer right VOICE_DL" value="0" />
-		<ctl name="BOOST_STUB Left Mixer left VOICE_DL" value="1" />
-=======
->>>>>>> 343b47b... Revert "shamu: fix speakerphone echo problem"
 	</path>
 
 	<path name="compress-voip-call bt-sco">
