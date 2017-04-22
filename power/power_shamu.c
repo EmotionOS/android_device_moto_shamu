@@ -295,18 +295,6 @@ static void power_hint( __attribute__((unused)) struct power_module *module,
         case POWER_HINT_VIDEO_ENCODE:
             process_video_encode_hint(data);
             break;
-<<<<<<< HEAD
-        case POWER_HINT_SET_PROFILE:
-            set_power_profile(*(int32_t *)data);
-            break;
-        case POWER_HINT_LOW_POWER:
-            if (data)
-                set_power_profile(PROFILE_POWER_SAVE);
-            else
-                set_power_profile(PROFILE_BALANCED);
-            break;
-=======
->>>>>>> a36be68... shamu: Update Power HAL
         default:
             break;
     }
